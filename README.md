@@ -1,2 +1,41 @@
-# reverseEngineer
-# Unit 14: Full-Stack  ## Overview In the previous unit, we modularized our applications following the MVC paradigm and integrated a custom ORM into the Model layer. Like all things in software development, when we find ourselves repeating a task, we look for programmatic solutions. Because the implementation of object-relational mapping is a common task in full-stack web development, third-party libraries emerged to do the heavy-lifting for us. In this unit we will integrate Sequelize, a popular Node.js ORM, into our newly modularized applications.  ## Key Topics * Sequelize * sequelize-cli * CRUD * Models * Validations * Associations  ## Comprehension Check You will be employer-ready if you can answer the following questions: 1. What is a Model?  2. What are two approaches to using Sequelize in a full-stack web application?  3. How does one perform joins using Sequelize?  ## Learning Objectives You will be employer-competitive if you are able to: * Configure a full-stack web application to use the Sequelize ORM library * Define models that POST data using validations * Define models that GET data using validations * Implement CRUD methods using Sequelize * Implement Sequelize associations to join one or more tables * Configure Heroku for deployment of an application using Sequelize  ## Homework: Reverse Engineer * In this assignment, you will reverse engineer the starter code provided and create a tutorial for the code. Begin inspecting the code to get an understanding of each file's responsibility. Then, in a Google Doc, write a tutorial explaining *every* file and its purpose.  ## Helpful Links * [Sequelize Queries](http://docs.sequelizejs.com/en/latest/docs/querying/) * [Sequelize Associations Part 1](http://docs.sequelizejs.com/en/latest/docs/associations/) * [Sequelize Association Part 2](http://docs.sequelizejs.com/en/latest/api/associations/) * [Sequelize Migrations](http://docs.sequelizejs.com/en/latest/docs/migrations/) * [bcrypt (NPM)](https://www.npmjs.com/package/bcrypt)
+# Unit 14 Sequelize Homework: Reverse Engineering Code
+
+Reverse engineer the starter code provided and create a tutorial for the code.
+
+In the `Develop` folder, there is starter code for a project. Begin inspecting the code to get an understanding of each file's responsibility. Then, in a Google Doc, write a tutorial explaining *every* file and its purpose. If one file is dependant on other files, be sure to let the user know.
+
+At the end of the tutorial, add instructions for how you could now add changes to this project.
+
+Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
+
+```
+AS A developer
+
+I WANT a walk-through of the codebase
+
+SO THAT I can use it as a starting point for a new project
+```
+
+## Business Context
+
+When joining a new team, you will be expected to inspect a lot of code that you have never seen before. Rather than having a team member explain every line for you, you will dissect the code by yourself, saving any questions for a member of your team.
+
+## Acceptance Criteria
+
+```md
+GIVEN a Node.js application using Sequelize and Passport
+WHEN I follow the walkthrough
+THEN I understand the codebase
+```
+- - -
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* A link to a Google Doc or video explaining the application in `Develop/`. 
+
+_Note: Don't forget to change the sharing settings on your Google Doc._
+
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
